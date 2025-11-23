@@ -1,8 +1,8 @@
 {
     'name': 'odoo_swagger_res_partner',
-    'version': '1.0.0',
+    'version': '1.0.1',
     'category': 'Tools',
-    'summary': 'Test res.partner CRUD via simple JSON APIs and host web app',
+    'summary': 'res.partner CRUD via simple JSON APIs and host web app',
     'description': """
         <h3>Odoo Swagger - Res Partner API Tester</h3>
         <p>
