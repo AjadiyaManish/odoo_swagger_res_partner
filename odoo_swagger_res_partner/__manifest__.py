@@ -1,0 +1,17 @@
+{
+    'name': 'odoo_swagger_res_partner',
+    'version': '1.0.0',
+    'category': 'Tools',
+    'summary': 'Test res.partner CRUD via simple JSON APIs and host web app',
+    'description': "Module to host a web app and provide JSON endpoints.",
+    'author': 'Envision Technolabs',
+    'maintainer': 'Envision Technolabs',
+    'website': 'https://www.envisiontechnolabs.com',
+    'license': 'LGPL-3',
+    'depends': ['base'],
+    'data': [],
+    'images': ['static/src/banner.gif'],
+    'installable': True,
+    'application': False,
+    'auto_install': False,
+}
