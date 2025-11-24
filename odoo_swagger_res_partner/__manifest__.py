@@ -1,5 +1,5 @@
 {
-    'name': 'odoo_swagger_res_partner',
+    'name': 'odoo swagger res_partner',
     'version': '1.0.1',
     'category': 'Tools',
     'summary': 'res.partner CRUD via simple JSON APIs and host web app',
