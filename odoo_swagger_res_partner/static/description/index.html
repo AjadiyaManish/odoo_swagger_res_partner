@@ -258,6 +258,37 @@
 <body>
 <div class="container">
     <div class="main-content">
+        <h4>🚀 How to Run This Web App</h4>
+        <div style="background: #e7f3ff; border-left: 4px solid #2196F3; padding: 20px; margin-bottom: 30px; border-radius: 8px;">
+            <p style="color: #1565C0; margin-bottom: 15px; font-weight: 600;">📦 Path:</p>
+            <code style="background: #fff; padding: 8px 12px; border-radius: 5px; display: block; margin-bottom: 15px; color: #333; font-size: 13px;">static/description/web.zip</code>
+
+            <p style="color: #1565C0; margin-bottom: 15px; font-weight: 600;">🌐 Download URL (after installing module):</p>
+            <code style="background: #fff; padding: 8px 12px; border-radius: 5px; display: block; margin-bottom: 20px; color: #333; font-size: 13px;">/odoo_swagger_res_partner/static/description/web.zip</code>
+
+            <p style="color: #1565C0; margin-bottom: 15px; font-weight: 600;">💻 Local run steps:</p>
+            <ol style="color: #1565C0; padding-left: 25px; line-height: 2;">
+                <li>Extract the ZIP file</li>
+                <li>Open terminal in the extracted folder</li>
+                <li>macOS: <code style="background: #fff; padding: 4px 8px; border-radius: 3px; color: #d32f2f;">/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+                    --disable-web-security \
+                    --user-data-dir="/tmp/chrome-no-security-$$" \
+                    --allow-insecure-localhost \
+                    "http://localhost:8080"
+                </code></li>
+                <li>Linux: <code style="background: #fff; padding: 4px 8px; border-radius: 3px; color: #d32f2f;">google-chrome \
+                    --disable-web-security \
+                    --user-data-dir="/tmp/chrome-no-security-$$" \
+                    --allow-insecure-localhost \
+                    "http://localhost:8080"
+                </code></li>
+                <li>Windows (CMD): <code style="background: #fff; padding: 4px 8px; border-radius: 3px; color: #d32f2f;">"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:\chrome-no-security" --allow-insecure-localhost "http://localhost:8080"
+                </code></li>
+                <li>Run: <code style="background: #fff; padding: 4px 8px; border-radius: 3px; color: #d32f2f;">python3 -m http.server 8080</code></li>
+                <li>Open in browser: <code style="background: #fff; padding: 4px 8px; border-radius: 3px; color: #d32f2f;">http://localhost:8080</code></li>
+            </ol>
+        </div>
+
         <h3>📖 How It Works</h3>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px;">
@@ -339,22 +370,7 @@
 
         <hr>
 
-        <h4>🚀 How to Run This Web App</h4>
-        <div style="background: #e7f3ff; border-left: 4px solid #2196F3; padding: 20px; margin-bottom: 30px; border-radius: 8px;">
-            <p style="color: #1565C0; margin-bottom: 15px; font-weight: 600;">📦 Path:</p>
-            <code style="background: #fff; padding: 8px 12px; border-radius: 5px; display: block; margin-bottom: 15px; color: #333; font-size: 13px;">static/description/web.zip</code>
 
-            <p style="color: #1565C0; margin-bottom: 15px; font-weight: 600;">🌐 Download URL (after installing module):</p>
-            <code style="background: #fff; padding: 8px 12px; border-radius: 5px; display: block; margin-bottom: 20px; color: #333; font-size: 13px;">/odoo_swagger_res_partner/static/description/web.zip</code>
-
-            <p style="color: #1565C0; margin-bottom: 15px; font-weight: 600;">💻 Local run steps:</p>
-            <ol style="color: #1565C0; padding-left: 25px; line-height: 2;">
-                <li>Extract the ZIP file</li>
-                <li>Open terminal in the extracted folder</li>
-                <li>Run: <code style="background: #fff; padding: 4px 8px; border-radius: 3px; color: #d32f2f;">python3 -m http.server 8080</code></li>
-                <li>Open in browser: <code style="background: #fff; padding: 4px 8px; border-radius: 3px; color: #d32f2f;">http://localhost:8080</code></li>
-            </ol>
-        </div>
 
         <h4>✨ Features</h4>
         <ul class="feature-list">
