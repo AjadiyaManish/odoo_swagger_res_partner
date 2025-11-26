@@ -24,7 +24,7 @@
     'depends': ['base'],
     'data': [],
     # App Store requires image in static/description — not static/src
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner.gif'],
     'installable': True,
     'application': False,
     'auto_install': False,
